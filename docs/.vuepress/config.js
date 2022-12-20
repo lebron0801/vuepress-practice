@@ -1,4 +1,8 @@
 module.exports = {
+  base: "/vuepress-practice/",
+  markdown: {
+    lineNumbers: true,
+  },
   locales: {
     "/": {
       lang: "en-US",
@@ -15,7 +19,9 @@ module.exports = {
     logo: "/logo.png",
     repo: "lebron0801/vuepress-practice",
     editLinks: true,
-    smoothScroll: true,
+    docsBranch: "dev",
+    docsDir: "docs",
+    smoothScroll: false,
     locales: {
       "/": {
         label: "English",
