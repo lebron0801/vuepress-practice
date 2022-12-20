@@ -1,4 +1,19 @@
 #!/usr/bin/env sh
 
-# 打包静态文件
+# 生成静态文件
 npm run docs:build
+
+# 进入生成的文件夹
+cd docs/.vuepress/dist
+
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
+
+git add -A
+git commit -m 'deploy'
+
+# 如果发布到 https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
+# 如果发布到 https://lebron0801.github.io/vuepress-practice
+git push -f git@github.com:lebron0801/vuepress-practice.git dev:gh-pages
