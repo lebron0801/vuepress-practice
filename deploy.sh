@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # 生成静态文件
-# npm run docs:build
+npm run docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
