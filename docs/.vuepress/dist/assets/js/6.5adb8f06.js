@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{276:function(n,t,e){"use strict";e.r(t);var o={name:"OtherComponent",data:()=>({myName:"lebron"}),mounted:function(){console.log("挂载成功!",window)}},s=e(13),a=Object(s.a)(o,(function(){return(0,this._self._c)("span",[this._v("我的名字是："+this._s(this.myName))])}),[],!1,null,null,null);t.default=a.exports}}]);
