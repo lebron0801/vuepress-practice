@@ -3,6 +3,8 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
+  title: "这是默认标题",
+  description: "这是默认站点描述",
   locales: {
     "/": {
       lang: "en-US",
@@ -56,6 +58,7 @@ module.exports = {
     },
     displayAllHeaders: false,
   },
+  extraWatchFiles: [".vuepress/nav/en.js", ".vuepress/nav/zh.js"],
 };
 
 function getGuideSidebar(groupA, groupB) {
